@@ -28,7 +28,7 @@ module.exports = {
      */
     output: {
         path: path.join(__dirname, '__build__'),
-        filename: '[name].js',
+        filename: '[name].js', //  name就是entry中的dir
         publicPath: '/__build__/'
     },
 
